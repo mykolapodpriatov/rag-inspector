@@ -1209,11 +1209,15 @@
       "sentences": [
         {
           "sentence": "It is widely used for data science, scripting, and web development.",
+          "start": 45,
+          "end": 112,
           "delta": 0.4864472803475889,
           "share": 0.9648181827390149
         },
         {
           "sentence": "Python is a high-level programming language.",
+          "start": 0,
+          "end": 44,
           "delta": 0.017738160028977656,
           "share": 0.035181817260985085
         }
@@ -1236,11 +1240,15 @@
       "sentences": [
         {
           "sentence": "Bananas are an elongated edible fruit.",
+          "start": 0,
+          "end": 38,
           "delta": 0.36999648554506737,
           "share": 1.0
         },
         {
           "sentence": "They are rich in potassium and grow in tropical climates.",
+          "start": 39,
+          "end": 96,
           "delta": -0.21501927256021547,
           "share": 0.0
         }
@@ -1263,11 +1271,15 @@
       "sentences": [
         {
           "sentence": "NumPy is a Python library for numerical computing.",
+          "start": 0,
+          "end": 50,
           "delta": 0.29003003067988675,
           "share": 1.0
         },
         {
           "sentence": "It provides fast multi-dimensional array operations.",
+          "start": 51,
+          "end": 103,
           "delta": -0.08774171352854998,
           "share": 0.0
         }
@@ -1290,11 +1302,15 @@
       "sentences": [
         {
           "sentence": "Python is a high-level programming language.",
+          "start": 0,
+          "end": 44,
           "delta": 1.0,
           "share": 1.0
         },
         {
           "sentence": "It is widely used for data science, scripting, and web development.",
+          "start": 45,
+          "end": 112,
           "delta": 0.0,
           "share": 0.0
         }
@@ -1317,11 +1333,15 @@
       "sentences": [
         {
           "sentence": "NumPy is a Python library for numerical computing.",
+          "start": 0,
+          "end": 50,
           "delta": 0.3594312478583144,
           "share": 1.0
         },
         {
           "sentence": "It provides fast multi-dimensional array operations.",
+          "start": 51,
+          "end": 103,
           "delta": -0.11231018096268486,
           "share": 0.0
         }
@@ -1344,11 +1364,15 @@
       "sentences": [
         {
           "sentence": "Bananas are an elongated edible fruit.",
+          "start": 0,
+          "end": 38,
           "delta": 0.3496029512230652,
           "share": 1.0
         },
         {
           "sentence": "They are rich in potassium and grow in tropical climates.",
+          "start": 39,
+          "end": 96,
           "delta": -0.20316783547786887,
           "share": 0.0
         }
@@ -1371,11 +1395,15 @@
       "sentences": [
         {
           "sentence": "The Seine is a major river of northern France.",
+          "start": 0,
+          "end": 46,
           "delta": 0.5437563564834985,
           "share": 0.984066408162006
         },
         {
           "sentence": "It flows through Paris before reaching the English Channel.",
+          "start": 47,
+          "end": 106,
           "delta": 0.008804275576995924,
           "share": 0.015933591837994043
         }
@@ -1398,11 +1426,15 @@
       "sentences": [
         {
           "sentence": "The capital of France is Paris.",
+          "start": 0,
+          "end": 31,
           "delta": 0.40410040483596676,
           "share": 1.0
         },
         {
           "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "start": 32,
+          "end": 100,
           "delta": -0.013252517879666637,
           "share": 0.0
         }
@@ -1425,11 +1457,15 @@
       "sentences": [
         {
           "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "start": 0,
+          "end": 66,
           "delta": 0.3296792828047492,
           "share": 1.0
         },
         {
           "sentence": "It was completed in 1889 for the World's Fair.",
+          "start": 67,
+          "end": 113,
           "delta": -0.0746326004863429,
           "share": 0.0
         }
@@ -1452,11 +1488,15 @@
       "sentences": [
         {
           "sentence": "The Seine is a major river of northern France.",
+          "start": 0,
+          "end": 46,
           "delta": 0.7009682216430458,
           "share": 1.0
         },
         {
           "sentence": "It flows through Paris before reaching the English Channel.",
+          "start": 47,
+          "end": 106,
           "delta": 0.0,
           "share": 0.0
         }
@@ -1479,11 +1519,15 @@
       "sentences": [
         {
           "sentence": "The capital of France is Paris.",
+          "start": 0,
+          "end": 31,
           "delta": 0.4748062006348944,
           "share": 1.0
         },
         {
           "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "start": 32,
+          "end": 100,
           "delta": -0.34218110230608856,
           "share": 0.0
         }
@@ -1506,11 +1550,15 @@
       "sentences": [
         {
           "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "start": 0,
+          "end": 66,
           "delta": 0.3809329429579257,
           "share": 1.0
         },
         {
           "sentence": "It was completed in 1889 for the World's Fair.",
+          "start": 67,
+          "end": 113,
           "delta": -0.16950493395721455,
           "share": 0.0
         }
@@ -1533,11 +1581,15 @@
       "sentences": [
         {
           "sentence": "Photosynthesis converts light energy into chemical energy.",
+          "start": 0,
+          "end": 58,
           "delta": 0.8975357906541807,
           "share": 1.0
         },
         {
           "sentence": "Plants use chlorophyll to absorb sunlight and release oxygen.",
+          "start": 59,
+          "end": 120,
           "delta": 0.0,
           "share": 0.0
         }
@@ -1560,11 +1612,15 @@
       "sentences": [
         {
           "sentence": "They produce ATP, the energy currency that drives cellular metabolism.",
+          "start": 49,
+          "end": 119,
           "delta": 0.17912238814644327,
           "share": 1.0
         },
         {
           "sentence": "The mitochondria are the powerhouse of the cell.",
+          "start": 0,
+          "end": 48,
           "delta": -0.05445775977479228,
           "share": 0.0
         }
@@ -1587,11 +1643,15 @@
       "sentences": [
         {
           "sentence": "NumPy is a Python library for numerical computing.",
+          "start": 0,
+          "end": 50,
           "delta": 0.13508265603577563,
           "share": 1.0
         },
         {
           "sentence": "It provides fast multi-dimensional array operations.",
+          "start": 51,
+          "end": 103,
           "delta": -0.04782011652656604,
           "share": 0.0
         }
@@ -1614,11 +1674,15 @@
       "sentences": [
         {
           "sentence": "The Seine is a major river of northern France.",
+          "start": 0,
+          "end": 46,
           "delta": 0.28308178384191485,
           "share": 0.5263029243180737
         },
         {
           "sentence": "It flows through Paris before reaching the English Channel.",
+          "start": 47,
+          "end": 106,
           "delta": 0.25478675300633,
           "share": 0.4736970756819263
         }
@@ -1641,11 +1705,15 @@
       "sentences": [
         {
           "sentence": "The capital of France is Paris.",
+          "start": 0,
+          "end": 31,
           "delta": 0.772639157095093,
           "share": 1.0
         },
         {
           "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "start": 32,
+          "end": 100,
           "delta": -0.04434814327453862,
           "share": 0.0
         }
@@ -1668,11 +1736,15 @@
       "sentences": [
         {
           "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "start": 0,
+          "end": 66,
           "delta": 0.671996962029535,
           "share": 1.0
         },
         {
           "sentence": "It was completed in 1889 for the World's Fair.",
+          "start": 67,
+          "end": 113,
           "delta": -0.14499033834009656,
           "share": 0.0
         }
@@ -1695,11 +1767,15 @@
       "sentences": [
         {
           "sentence": "The capital of France is Paris.",
+          "start": 0,
+          "end": 31,
           "delta": 0.6384205365311575,
           "share": 1.0
         },
         {
           "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "start": 32,
+          "end": 100,
           "delta": -0.13252169938832203,
           "share": 0.0
         }
@@ -1722,11 +1798,15 @@
       "sentences": [
         {
           "sentence": "The Seine is a major river of northern France.",
+          "start": 0,
+          "end": 46,
           "delta": 0.42851528532783856,
           "share": 1.0
         },
         {
           "sentence": "It flows through Paris before reaching the English Channel.",
+          "start": 47,
+          "end": 106,
           "delta": -0.18142186144029404,
           "share": 0.0
         }
@@ -1749,11 +1829,15 @@
       "sentences": [
         {
           "sentence": "NumPy is a Python library for numerical computing.",
+          "start": 0,
+          "end": 50,
           "delta": 0.155193501271118,
           "share": 1.0
         },
         {
           "sentence": "It provides fast multi-dimensional array operations.",
+          "start": 51,
+          "end": 103,
           "delta": -0.05493948322266584,
           "share": 0.0
         }
@@ -1776,11 +1860,15 @@
       "sentences": [
         {
           "sentence": "They produce ATP, the energy currency that drives cellular metabolism.",
+          "start": 49,
+          "end": 119,
           "delta": 0.6905346308517728,
           "share": 1.0
         },
         {
           "sentence": "The mitochondria are the powerhouse of the cell.",
+          "start": 0,
+          "end": 48,
           "delta": -0.2201989519120171,
           "share": 0.0
         }
@@ -1803,11 +1891,15 @@
       "sentences": [
         {
           "sentence": "It is widely used for data science, scripting, and web development.",
+          "start": 45,
+          "end": 112,
           "delta": 0.1467042586894879,
           "share": 0.6290270075130516
         },
         {
           "sentence": "Python is a high-level programming language.",
+          "start": 0,
+          "end": 44,
           "delta": 0.08651984287890768,
           "share": 0.3709729924869483
         }
@@ -1830,11 +1922,15 @@
       "sentences": [
         {
           "sentence": "It was completed in 1889 for the World's Fair.",
+          "start": 67,
+          "end": 113,
           "delta": 0.157596078655671,
           "share": 0.7941177556553912
         },
         {
           "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "start": 0,
+          "end": 66,
           "delta": 0.04085821547556373,
           "share": 0.2058822443446088
         }
@@ -1857,11 +1953,15 @@
       "sentences": [
         {
           "sentence": "It is widely used for data science, scripting, and web development.",
+          "start": 45,
+          "end": 112,
           "delta": 0.41138828515344117,
           "share": 0.8429908062969292
         },
         {
           "sentence": "Python is a high-level programming language.",
+          "start": 0,
+          "end": 44,
           "delta": 0.07662212027503346,
           "share": 0.15700919370307073
         }
@@ -1884,11 +1984,15 @@
       "sentences": [
         {
           "sentence": "Plants use chlorophyll to absorb sunlight and release oxygen.",
+          "start": 59,
+          "end": 120,
           "delta": 0.20961632384795947,
           "share": 1.0
         },
         {
           "sentence": "Photosynthesis converts light energy into chemical energy.",
+          "start": 0,
+          "end": 58,
           "delta": -0.07303027877141682,
           "share": 0.0
         }
@@ -1911,11 +2015,15 @@
       "sentences": [
         {
           "sentence": "NumPy is a Python library for numerical computing.",
+          "start": 0,
+          "end": 50,
           "delta": 0.22064259568248948,
           "share": 1.0
         },
         {
           "sentence": "It provides fast multi-dimensional array operations.",
+          "start": 51,
+          "end": 103,
           "delta": -0.34298053830590813,
           "share": 0.0
         }
@@ -1938,11 +2046,15 @@
       "sentences": [
         {
           "sentence": "Python is a high-level programming language.",
+          "start": 0,
+          "end": 44,
           "delta": 1.0,
           "share": 1.0
         },
         {
           "sentence": "It is widely used for data science, scripting, and web development.",
+          "start": 45,
+          "end": 112,
           "delta": 0.0,
           "share": 0.0
         }
@@ -1965,11 +2077,15 @@
       "sentences": [
         {
           "sentence": "NumPy is a Python library for numerical computing.",
+          "start": 0,
+          "end": 50,
           "delta": 0.3574117328600033,
           "share": 1.0
         },
         {
           "sentence": "It provides fast multi-dimensional array operations.",
+          "start": 51,
+          "end": 103,
           "delta": -0.12526489056408402,
           "share": 0.0
         }
@@ -1992,11 +2108,15 @@
       "sentences": [
         {
           "sentence": "Bananas are an elongated edible fruit.",
+          "start": 0,
+          "end": 38,
           "delta": 0.0,
           "share": 0.5
         },
         {
           "sentence": "They are rich in potassium and grow in tropical climates.",
+          "start": 39,
+          "end": 96,
           "delta": 0.0,
           "share": 0.5
         }
@@ -2019,11 +2139,15 @@
       "sentences": [
         {
           "sentence": "The Seine is a major river of northern France.",
+          "start": 0,
+          "end": 46,
           "delta": 0.3409873271679288,
           "share": 0.7262354277647737
         },
         {
           "sentence": "It flows through Paris before reaching the English Channel.",
+          "start": 47,
+          "end": 106,
           "delta": 0.12853992822558524,
           "share": 0.2737645722352263
         }
@@ -2046,11 +2170,15 @@
       "sentences": [
         {
           "sentence": "The capital of France is Paris.",
+          "start": 0,
+          "end": 31,
           "delta": 0.5255536682465884,
           "share": 1.0
         },
         {
           "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "start": 32,
+          "end": 100,
           "delta": -0.03115977523487945,
           "share": 0.0
         }
@@ -2073,11 +2201,15 @@
       "sentences": [
         {
           "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "start": 0,
+          "end": 66,
           "delta": 0.7900356866654885,
           "share": 1.0
         },
         {
           "sentence": "It was completed in 1889 for the World's Fair.",
+          "start": 67,
+          "end": 113,
           "delta": -0.2099643133345115,
           "share": 0.0
         }
@@ -2100,11 +2232,15 @@
       "sentences": [
         {
           "sentence": "It flows through Paris before reaching the English Channel.",
+          "start": 47,
+          "end": 106,
           "delta": 0.7883431163901427,
           "share": 1.0
         },
         {
           "sentence": "The Seine is a major river of northern France.",
+          "start": 0,
+          "end": 46,
           "delta": 0.0,
           "share": 0.0
         }
@@ -2127,11 +2263,15 @@
       "sentences": [
         {
           "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "start": 0,
+          "end": 66,
           "delta": 0.7670389947460635,
           "share": 1.0
         },
         {
           "sentence": "It was completed in 1889 for the World's Fair.",
+          "start": 67,
+          "end": 113,
           "delta": -0.23296100525393648,
           "share": 0.0
         }
@@ -2154,11 +2294,15 @@
       "sentences": [
         {
           "sentence": "The capital of France is Paris.",
+          "start": 0,
+          "end": 31,
           "delta": 0.5887758018688685,
           "share": 1.0
         },
         {
           "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "start": 32,
+          "end": 100,
           "delta": -0.41122419813113154,
           "share": 0.0
         }
@@ -2181,11 +2325,15 @@
       "sentences": [
         {
           "sentence": "Photosynthesis converts light energy into chemical energy.",
+          "start": 0,
+          "end": 58,
           "delta": 0.7203380924037948,
           "share": 1.0
         },
         {
           "sentence": "Plants use chlorophyll to absorb sunlight and release oxygen.",
+          "start": 59,
+          "end": 120,
           "delta": -8.529922257416445e-08,
           "share": 0.0
         }
@@ -2208,11 +2356,15 @@
       "sentences": [
         {
           "sentence": "They are rich in potassium and grow in tropical climates.",
+          "start": 39,
+          "end": 96,
           "delta": 0.16865481739622204,
           "share": 1.0
         },
         {
           "sentence": "Bananas are an elongated edible fruit.",
+          "start": 0,
+          "end": 38,
           "delta": -0.08432738737330533,
           "share": 0.0
         }
@@ -2235,11 +2387,15 @@
       "sentences": [
         {
           "sentence": "They produce ATP, the energy currency that drives cellular metabolism.",
+          "start": 49,
+          "end": 119,
           "delta": 0.16004881370686264,
           "share": 1.0
         },
         {
           "sentence": "The mitochondria are the powerhouse of the cell.",
+          "start": 0,
+          "end": 48,
           "delta": -0.10298705753572318,
           "share": 0.0
         }
@@ -2262,11 +2418,15 @@
       "sentences": [
         {
           "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "start": 0,
+          "end": 66,
           "delta": 0.9818181818181818,
           "share": 1.0
         },
         {
           "sentence": "It was completed in 1889 for the World's Fair.",
+          "start": 67,
+          "end": 113,
           "delta": -0.018181818181818188,
           "share": 0.0
         }
@@ -2289,11 +2449,15 @@
       "sentences": [
         {
           "sentence": "The capital of France is Paris.",
+          "start": 0,
+          "end": 31,
           "delta": 0.7810612784665892,
           "share": 1.0
         },
         {
           "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "start": 32,
+          "end": 100,
           "delta": -0.21893872153341076,
           "share": 0.0
         }
@@ -2316,11 +2480,15 @@
       "sentences": [
         {
           "sentence": "It flows through Paris before reaching the English Channel.",
+          "start": 47,
+          "end": 106,
           "delta": 0.5270379092679164,
           "share": 1.0
         },
         {
           "sentence": "The Seine is a major river of northern France.",
+          "start": 0,
+          "end": 46,
           "delta": -0.15283136243707995,
           "share": 0.0
         }
@@ -2343,11 +2511,15 @@
       "sentences": [
         {
           "sentence": "The capital of France is Paris.",
+          "start": 0,
+          "end": 31,
           "delta": 0.5409500729735333,
           "share": 1.0
         },
         {
           "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "start": 32,
+          "end": 100,
           "delta": 0.0,
           "share": 0.0
         }
@@ -2370,11 +2542,15 @@
       "sentences": [
         {
           "sentence": "The Seine is a major river of northern France.",
+          "start": 0,
+          "end": 46,
           "delta": 0.3137377518016395,
           "share": 1.0
         },
         {
           "sentence": "It flows through Paris before reaching the English Channel.",
+          "start": 47,
+          "end": 106,
           "delta": -0.1891918770746554,
           "share": 0.0
         }
@@ -2397,11 +2573,15 @@
       "sentences": [
         {
           "sentence": "Bananas are an elongated edible fruit.",
+          "start": 0,
+          "end": 38,
           "delta": 0.25854295040831016,
           "share": 1.0
         },
         {
           "sentence": "They are rich in potassium and grow in tropical climates.",
+          "start": 39,
+          "end": 96,
           "delta": -0.1292714425138456,
           "share": 0.0
         }
@@ -2424,11 +2604,15 @@
       "sentences": [
         {
           "sentence": "It was completed in 1889 for the World's Fair.",
+          "start": 67,
+          "end": 113,
           "delta": 0.20824968880953965,
           "share": 0.5104277595291847
         },
         {
           "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "start": 0,
+          "end": 66,
           "delta": 0.19974083467144776,
           "share": 0.48957224047081527
         }
@@ -2451,11 +2635,15 @@
       "sentences": [
         {
           "sentence": "Python is a high-level programming language.",
+          "start": 0,
+          "end": 44,
           "delta": 0.38615632954088325,
           "share": 1.0
         },
         {
           "sentence": "It is widely used for data science, scripting, and web development.",
+          "start": 45,
+          "end": 112,
           "delta": -0.08462442779077484,
           "share": 0.0
         }
@@ -2478,11 +2666,15 @@
       "sentences": [
         {
           "sentence": "NumPy is a Python library for numerical computing.",
+          "start": 0,
+          "end": 50,
           "delta": 0.5742406624358286,
           "share": 1.0
         },
         {
           "sentence": "It provides fast multi-dimensional array operations.",
+          "start": 51,
+          "end": 103,
           "delta": -0.20559625706124285,
           "share": 0.0
         }
