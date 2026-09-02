@@ -1,0 +1,2500 @@
+{
+  "runs": [
+    {
+      "id": "baseline",
+      "label": "baseline \u00b7 hash-48 \u00b7 alpha 0.5",
+      "k": 5,
+      "fingerprint": {
+        "embeddingModel": "fake-hash-48",
+        "alpha": 0.5,
+        "reranker": null,
+        "indexContentHash": "",
+        "digest": "baseline-48-0.5",
+        "chunkParams": {}
+      },
+      "queries": [
+        {
+          "query": "Python data science",
+          "relevantChunkIds": [
+            "numpy"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "python",
+                "text": "Python is a high-level programming language. It is widely used for data science, scripting, and web development."
+              },
+              "score": 0.9827813061518449,
+              "rank": 0,
+              "components": {
+                "dense": 0.9655626123036899,
+                "lexical": 1.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.5,
+              "rank": 1,
+              "components": {
+                "dense": 1.0,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.4200335451348194,
+              "rank": 2,
+              "components": {
+                "dense": 0.5926091331641323,
+                "lexical": 0.2474579571055065,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.2637760284336031,
+              "rank": 3,
+              "components": {
+                "dense": 0.5275520568672062,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.13000351445493263,
+              "rank": 4,
+              "components": {
+                "dense": 0.26000702890986527,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "query": "Python programming language",
+          "relevantChunkIds": [
+            "numpy"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "python",
+                "text": "Python is a high-level programming language. It is widely used for data science, scripting, and web development."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.3594312478583144,
+              "rank": 1,
+              "components": {
+                "dense": 0.4714045386111222,
+                "lexical": 0.2474579571055065,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.3496029512230652,
+              "rank": 2,
+              "components": {
+                "dense": 0.6992059024461303,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 0.1954339895059195,
+              "rank": 3,
+              "components": {
+                "dense": 0.390867979011839,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.18959883122915036,
+              "rank": 4,
+              "components": {
+                "dense": 0.3791976624583007,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "query": "France river Paris",
+          "relevantChunkIds": [
+            "eiffel"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.9543366558731508,
+              "rank": 1,
+              "components": {
+                "dense": 0.9784407536067667,
+                "lexical": 0.9302325581395349,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.6076055720716673,
+              "rank": 2,
+              "components": {
+                "dense": 0.7732648010376754,
+                "lexical": 0.4419463431056594,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.13896314463345907,
+              "rank": 3,
+              "components": {
+                "dense": 0.27792628926691815,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.13896314463345907,
+              "rank": 4,
+              "components": {
+                "dense": 0.27792628926691815,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "query": "northern France Paris",
+          "relevantChunkIds": [
+            "eiffel"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.6578188976939114,
+              "rank": 1,
+              "components": {
+                "dense": 0.9810711423426088,
+                "lexical": 0.33456665304521416,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.5639456400169427,
+              "rank": 2,
+              "components": {
+                "dense": 0.8009284145578807,
+                "lexical": 0.3269628654760047,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.3741632406085975,
+              "rank": 3,
+              "components": {
+                "dense": 0.748326481217195,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.183012697059017,
+              "rank": 4,
+              "components": {
+                "dense": 0.366025394118034,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "query": "light energy chemical plants",
+          "relevantChunkIds": [
+            "mitochondria"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "photosynthesis",
+                "text": "Photosynthesis converts light energy into chemical energy. Plants use chlorophyll to absorb sunlight and release oxygen."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.2911270085763037,
+              "rank": 1,
+              "components": {
+                "dense": 0.43520719272835606,
+                "lexical": 0.14704682442425127,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.24708727646563605,
+              "rank": 2,
+              "components": {
+                "dense": 0.4941745529312721,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "python",
+                "text": "Python is a high-level programming language. It is widely used for data science, scripting, and web development."
+              },
+              "score": 0.2075224824833892,
+              "rank": 3,
+              "components": {
+                "dense": 0.4150449649667784,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.18883916132618173,
+              "rank": 4,
+              "components": {
+                "dense": 0.37767832265236345,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "query": "Paris France",
+          "relevantChunkIds": [
+            "seine"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.9556518567254614,
+              "rank": 1,
+              "components": {
+                "dense": 0.9810711553113879,
+                "lexical": 0.9302325581395349,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.8550096616599034,
+              "rank": 2,
+              "components": {
+                "dense": 0.8009284142288979,
+                "lexical": 0.9090909090909091,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.18301269963036843,
+              "rank": 3,
+              "components": {
+                "dense": 0.36602539926073685,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.18301269963036843,
+              "rank": 4,
+              "components": {
+                "dense": 0.36602539926073685,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "query": "capital of France geography",
+          "relevantChunkIds": [
+            "paris"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.867478300611678,
+              "rank": 0,
+              "components": {
+                "dense": 0.7349566012233559,
+                "lexical": 1.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 0.6711559808372749,
+              "rank": 1,
+              "components": {
+                "dense": 1.0,
+                "lexical": 0.3423119616745497,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.3978341967805543,
+              "rank": 2,
+              "components": {
+                "dense": 0.7956683935611086,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.24264069550943632,
+              "rank": 3,
+              "components": {
+                "dense": 0.48528139101887263,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "photosynthesis",
+                "text": "Photosynthesis converts light energy into chemical energy. Plants use chlorophyll to absorb sunlight and release oxygen."
+              },
+              "score": 0.24264069550943632,
+              "rank": 4,
+              "components": {
+                "dense": 0.48528139101887263,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "query": "a topic that is nowhere in this corpus at all",
+          "relevantChunkIds": [
+            "does-not-exist"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.6905346308517728,
+              "rank": 0,
+              "components": {
+                "dense": 0.3810692617035457,
+                "lexical": 1.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "python",
+                "text": "Python is a high-level programming language. It is widely used for data science, scripting, and web development."
+              },
+              "score": 0.6573035572107779,
+              "rank": 1,
+              "components": {
+                "dense": 1.0,
+                "lexical": 0.31460711442155576,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.4695398050009012,
+              "rank": 2,
+              "components": {
+                "dense": 0.3644295529322165,
+                "lexical": 0.5746500570695858,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "photosynthesis",
+                "text": "Photosynthesis converts light energy into chemical energy. Plants use chlorophyll to absorb sunlight and release oxygen."
+              },
+              "score": 0.3669195145361589,
+              "rank": 3,
+              "components": {
+                "dense": 0.7338390290723178,
+                "lexical": 0.0,
+                "alpha": 0.5
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.24051011487961127,
+              "rank": 4,
+              "components": {
+                "dense": 0.014918715919316103,
+                "lexical": 0.46610151383990645,
+                "alpha": 0.5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "candidate",
+      "label": "candidate \u00b7 hash-128 \u00b7 alpha 0.8",
+      "k": 5,
+      "fingerprint": {
+        "embeddingModel": "fake-hash-128",
+        "alpha": 0.8,
+        "reranker": null,
+        "indexContentHash": "",
+        "digest": "candidate-128-0.8",
+        "chunkParams": {}
+      },
+      "queries": [
+        {
+          "query": "Python data science",
+          "relevantChunkIds": [
+            "numpy"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "python",
+                "text": "Python is a high-level programming language. It is widely used for data science, scripting, and web development."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "photosynthesis",
+                "text": "Photosynthesis converts light energy into chemical energy. Plants use chlorophyll to absorb sunlight and release oxygen."
+              },
+              "score": 0.38076732810934766,
+              "rank": 1,
+              "components": {
+                "dense": 0.47595916013668454,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.22064259568248948,
+              "rank": 2,
+              "components": {
+                "dense": 0.2139387553267352,
+                "lexical": 0.2474579571055065,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.17115100426138818,
+              "rank": 3,
+              "components": {
+                "dense": 0.2139387553267352,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.17115100426138818,
+              "rank": 4,
+              "components": {
+                "dense": 0.2139387553267352,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "query": "Python programming language",
+          "relevantChunkIds": [
+            "numpy"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "python",
+                "text": "Python is a high-level programming language. It is widely used for data science, scripting, and web development."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.3574117328600033,
+              "rank": 1,
+              "components": {
+                "dense": 0.3849001767986275,
+                "lexical": 0.2474579571055065,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.0,
+              "rank": 2,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.0,
+              "rank": 3,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.0,
+              "rank": 4,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "query": "France river Paris",
+          "relevantChunkIds": [
+            "eiffel"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.9688402247651206,
+              "rank": 1,
+              "components": {
+                "dense": 0.9784921414215169,
+                "lexical": 0.9302325581395349,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.7900356866654885,
+              "rank": 2,
+              "components": {
+                "dense": 0.8770580225554458,
+                "lexical": 0.4419463431056594,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.0,
+              "rank": 3,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.0,
+              "rank": 4,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "query": "northern France Paris",
+          "relevantChunkIds": [
+            "eiffel"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.7670389947460635,
+              "rank": 1,
+              "components": {
+                "dense": 0.8770580270635782,
+                "lexical": 0.3269628654760047,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.5887758018688685,
+              "rank": 2,
+              "components": {
+                "dense": 0.652328089074782,
+                "lexical": 0.33456665304521416,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.0,
+              "rank": 3,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.0,
+              "rank": 4,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "query": "light energy chemical plants",
+          "relevantChunkIds": [
+            "mitochondria"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "photosynthesis",
+                "text": "Photosynthesis converts light energy into chemical energy. Plants use chlorophyll to absorb sunlight and release oxygen."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.16865481739622204,
+              "rank": 1,
+              "components": {
+                "dense": 0.21081852174527754,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.16004881370686264,
+              "rank": 2,
+              "components": {
+                "dense": 0.1632993110275155,
+                "lexical": 0.14704682442425127,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "python",
+                "text": "Python is a high-level programming language. It is widely used for data science, scripting, and web development."
+              },
+              "score": 0.15999999573503887,
+              "rank": 3,
+              "components": {
+                "dense": 0.1999999946687986,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.0,
+              "rank": 4,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "query": "Paris France",
+          "relevantChunkIds": [
+            "seine"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.9818181818181818,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 0.9090909090909091,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 0.7810612784665892,
+              "rank": 1,
+              "components": {
+                "dense": 0.7437684585483528,
+                "lexical": 0.9302325581395349,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 0.6560701673324325,
+              "rank": 2,
+              "components": {
+                "dense": 0.5700877091655406,
+                "lexical": 1.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.0,
+              "rank": 3,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.0,
+              "rank": 4,
+              "components": {
+                "dense": 0.0,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "query": "capital of France geography",
+          "relevantChunkIds": [
+            "paris"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "paris",
+                "text": "The capital of France is Paris. It sits on the banks of the Seine river in the north of the country."
+              },
+              "score": 1.0,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 1.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 0.3137377518016395,
+              "rank": 1,
+              "components": {
+                "dense": 0.3065941993334119,
+                "lexical": 0.3423119616745497,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "banana",
+                "text": "Bananas are an elongated edible fruit. They are rich in potassium and grow in tropical climates."
+              },
+              "score": 0.25854295040831016,
+              "rank": 2,
+              "components": {
+                "dense": 0.3231786880103877,
+                "lexical": 0.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.2462399921043406,
+              "rank": 3,
+              "components": {
+                "dense": 0.26890090357649965,
+                "lexical": 0.15559634621570442,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.23449768757047565,
+              "rank": 4,
+              "components": {
+                "dense": 0.25033311425377586,
+                "lexical": 0.17115598083727485,
+                "alpha": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "query": "a topic that is nowhere in this corpus at all",
+          "relevantChunkIds": [
+            "does-not-exist"
+          ],
+          "results": [
+            {
+              "chunk": {
+                "id": "eiffel",
+                "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It was completed in 1889 for the World's Fair."
+              },
+              "score": 0.9149300114139172,
+              "rank": 0,
+              "components": {
+                "dense": 1.0,
+                "lexical": 0.5746500570695858,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "python",
+                "text": "Python is a high-level programming language. It is widely used for data science, scripting, and web development."
+              },
+              "score": 0.7470266484835846,
+              "rank": 1,
+              "components": {
+                "dense": 0.8551315319990918,
+                "lexical": 0.31460711442155576,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "numpy",
+                "text": "NumPy is a Python library for numerical computing. It provides fast multi-dimensional array operations."
+              },
+              "score": 0.5742406624358286,
+              "rank": 2,
+              "components": {
+                "dense": 0.6582805631542211,
+                "lexical": 0.23808105956225836,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "mitochondria",
+                "text": "The mitochondria are the powerhouse of the cell. They produce ATP, the energy currency that drives cellular metabolism."
+              },
+              "score": 0.5723797338484808,
+              "rank": 3,
+              "components": {
+                "dense": 0.465474667310601,
+                "lexical": 1.0,
+                "alpha": 0.8
+              }
+            },
+            {
+              "chunk": {
+                "id": "seine",
+                "text": "The Seine is a major river of northern France. It flows through Paris before reaching the English Channel."
+              },
+              "score": 0.5001151464185334,
+              "rank": 4,
+              "components": {
+                "dense": 0.5700876879993945,
+                "lexical": 0.22022498009508898,
+                "alpha": 0.8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "explanations": [
+    {
+      "runId": "baseline",
+      "query": "Python data science",
+      "chunkId": "python",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "It is widely used for data science, scripting, and web development.",
+          "delta": 0.4864472803475889,
+          "share": 0.9648181827390149
+        },
+        {
+          "sentence": "Python is a high-level programming language.",
+          "delta": 0.017738160028977656,
+          "share": 0.035181817260985085
+        }
+      ],
+      "components": {
+        "dense": 0.9655626123036899,
+        "lexical": 1.0,
+        "alpha": 0.5,
+        "denseContribution": 0.48278130615184495,
+        "lexicalContribution": 0.5,
+        "dominant": "lexical"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "Python data science",
+      "chunkId": "banana",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Bananas are an elongated edible fruit.",
+          "delta": 0.36999648554506737,
+          "share": 1.0
+        },
+        {
+          "sentence": "They are rich in potassium and grow in tropical climates.",
+          "delta": -0.21501927256021547,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 0.0,
+        "alpha": 0.5,
+        "denseContribution": 0.5,
+        "lexicalContribution": 0.0,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "Python data science",
+      "chunkId": "numpy",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "NumPy is a Python library for numerical computing.",
+          "delta": 0.29003003067988675,
+          "share": 1.0
+        },
+        {
+          "sentence": "It provides fast multi-dimensional array operations.",
+          "delta": -0.08774171352854998,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.5926091331641323,
+        "lexical": 0.2474579571055065,
+        "alpha": 0.5,
+        "denseContribution": 0.29630456658206616,
+        "lexicalContribution": 0.12372897855275325,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "Python programming language",
+      "chunkId": "python",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Python is a high-level programming language.",
+          "delta": 1.0,
+          "share": 1.0
+        },
+        {
+          "sentence": "It is widely used for data science, scripting, and web development.",
+          "delta": 0.0,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.5,
+        "denseContribution": 0.5,
+        "lexicalContribution": 0.5,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "Python programming language",
+      "chunkId": "numpy",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "NumPy is a Python library for numerical computing.",
+          "delta": 0.3594312478583144,
+          "share": 1.0
+        },
+        {
+          "sentence": "It provides fast multi-dimensional array operations.",
+          "delta": -0.11231018096268486,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.4714045386111222,
+        "lexical": 0.2474579571055065,
+        "alpha": 0.5,
+        "denseContribution": 0.2357022693055611,
+        "lexicalContribution": 0.12372897855275325,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "Python programming language",
+      "chunkId": "banana",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Bananas are an elongated edible fruit.",
+          "delta": 0.3496029512230652,
+          "share": 1.0
+        },
+        {
+          "sentence": "They are rich in potassium and grow in tropical climates.",
+          "delta": -0.20316783547786887,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.6992059024461303,
+        "lexical": 0.0,
+        "alpha": 0.5,
+        "denseContribution": 0.3496029512230652,
+        "lexicalContribution": 0.0,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "France river Paris",
+      "chunkId": "seine",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Seine is a major river of northern France.",
+          "delta": 0.5437563564834985,
+          "share": 0.984066408162006
+        },
+        {
+          "sentence": "It flows through Paris before reaching the English Channel.",
+          "delta": 0.008804275576995924,
+          "share": 0.015933591837994043
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.5,
+        "denseContribution": 0.5,
+        "lexicalContribution": 0.5,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "France river Paris",
+      "chunkId": "paris",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The capital of France is Paris.",
+          "delta": 0.40410040483596676,
+          "share": 1.0
+        },
+        {
+          "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "delta": -0.013252517879666637,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.9784407536067667,
+        "lexical": 0.9302325581395349,
+        "alpha": 0.5,
+        "denseContribution": 0.48922037680338337,
+        "lexicalContribution": 0.46511627906976744,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "France river Paris",
+      "chunkId": "eiffel",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "delta": 0.3296792828047492,
+          "share": 1.0
+        },
+        {
+          "sentence": "It was completed in 1889 for the World's Fair.",
+          "delta": -0.0746326004863429,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.7732648010376754,
+        "lexical": 0.4419463431056594,
+        "alpha": 0.5,
+        "denseContribution": 0.3866324005188377,
+        "lexicalContribution": 0.2209731715528297,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "northern France Paris",
+      "chunkId": "seine",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Seine is a major river of northern France.",
+          "delta": 0.7009682216430458,
+          "share": 1.0
+        },
+        {
+          "sentence": "It flows through Paris before reaching the English Channel.",
+          "delta": 0.0,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.5,
+        "denseContribution": 0.5,
+        "lexicalContribution": 0.5,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "northern France Paris",
+      "chunkId": "paris",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The capital of France is Paris.",
+          "delta": 0.4748062006348944,
+          "share": 1.0
+        },
+        {
+          "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "delta": -0.34218110230608856,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.9810711423426088,
+        "lexical": 0.33456665304521416,
+        "alpha": 0.5,
+        "denseContribution": 0.4905355711713044,
+        "lexicalContribution": 0.16728332652260708,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "northern France Paris",
+      "chunkId": "eiffel",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "delta": 0.3809329429579257,
+          "share": 1.0
+        },
+        {
+          "sentence": "It was completed in 1889 for the World's Fair.",
+          "delta": -0.16950493395721455,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.8009284145578807,
+        "lexical": 0.3269628654760047,
+        "alpha": 0.5,
+        "denseContribution": 0.40046420727894033,
+        "lexicalContribution": 0.16348143273800236,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "light energy chemical plants",
+      "chunkId": "photosynthesis",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Photosynthesis converts light energy into chemical energy.",
+          "delta": 0.8975357906541807,
+          "share": 1.0
+        },
+        {
+          "sentence": "Plants use chlorophyll to absorb sunlight and release oxygen.",
+          "delta": 0.0,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.5,
+        "denseContribution": 0.5,
+        "lexicalContribution": 0.5,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "light energy chemical plants",
+      "chunkId": "mitochondria",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "They produce ATP, the energy currency that drives cellular metabolism.",
+          "delta": 0.17912238814644327,
+          "share": 1.0
+        },
+        {
+          "sentence": "The mitochondria are the powerhouse of the cell.",
+          "delta": -0.05445775977479228,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.43520719272835606,
+        "lexical": 0.14704682442425127,
+        "alpha": 0.5,
+        "denseContribution": 0.21760359636417803,
+        "lexicalContribution": 0.07352341221212563,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "light energy chemical plants",
+      "chunkId": "numpy",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "NumPy is a Python library for numerical computing.",
+          "delta": 0.13508265603577563,
+          "share": 1.0
+        },
+        {
+          "sentence": "It provides fast multi-dimensional array operations.",
+          "delta": -0.04782011652656604,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.4941745529312721,
+        "lexical": 0.0,
+        "alpha": 0.5,
+        "denseContribution": 0.24708727646563605,
+        "lexicalContribution": 0.0,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "Paris France",
+      "chunkId": "seine",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Seine is a major river of northern France.",
+          "delta": 0.28308178384191485,
+          "share": 0.5263029243180737
+        },
+        {
+          "sentence": "It flows through Paris before reaching the English Channel.",
+          "delta": 0.25478675300633,
+          "share": 0.4736970756819263
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.5,
+        "denseContribution": 0.5,
+        "lexicalContribution": 0.5,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "Paris France",
+      "chunkId": "paris",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The capital of France is Paris.",
+          "delta": 0.772639157095093,
+          "share": 1.0
+        },
+        {
+          "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "delta": -0.04434814327453862,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.9810711553113879,
+        "lexical": 0.9302325581395349,
+        "alpha": 0.5,
+        "denseContribution": 0.49053557765569394,
+        "lexicalContribution": 0.46511627906976744,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "Paris France",
+      "chunkId": "eiffel",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "delta": 0.671996962029535,
+          "share": 1.0
+        },
+        {
+          "sentence": "It was completed in 1889 for the World's Fair.",
+          "delta": -0.14499033834009656,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.8009284142288979,
+        "lexical": 0.9090909090909091,
+        "alpha": 0.5,
+        "denseContribution": 0.40046420711444897,
+        "lexicalContribution": 0.45454545454545453,
+        "dominant": "lexical"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "capital of France geography",
+      "chunkId": "paris",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The capital of France is Paris.",
+          "delta": 0.6384205365311575,
+          "share": 1.0
+        },
+        {
+          "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "delta": -0.13252169938832203,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.7349566012233559,
+        "lexical": 1.0,
+        "alpha": 0.5,
+        "denseContribution": 0.36747830061167797,
+        "lexicalContribution": 0.5,
+        "dominant": "lexical"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "capital of France geography",
+      "chunkId": "seine",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Seine is a major river of northern France.",
+          "delta": 0.42851528532783856,
+          "share": 1.0
+        },
+        {
+          "sentence": "It flows through Paris before reaching the English Channel.",
+          "delta": -0.18142186144029404,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 0.3423119616745497,
+        "alpha": 0.5,
+        "denseContribution": 0.5,
+        "lexicalContribution": 0.17115598083727485,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "capital of France geography",
+      "chunkId": "numpy",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "NumPy is a Python library for numerical computing.",
+          "delta": 0.155193501271118,
+          "share": 1.0
+        },
+        {
+          "sentence": "It provides fast multi-dimensional array operations.",
+          "delta": -0.05493948322266584,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.7956683935611086,
+        "lexical": 0.0,
+        "alpha": 0.5,
+        "denseContribution": 0.3978341967805543,
+        "lexicalContribution": 0.0,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "a topic that is nowhere in this corpus at all",
+      "chunkId": "mitochondria",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "They produce ATP, the energy currency that drives cellular metabolism.",
+          "delta": 0.6905346308517728,
+          "share": 1.0
+        },
+        {
+          "sentence": "The mitochondria are the powerhouse of the cell.",
+          "delta": -0.2201989519120171,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.3810692617035457,
+        "lexical": 1.0,
+        "alpha": 0.5,
+        "denseContribution": 0.19053463085177286,
+        "lexicalContribution": 0.5,
+        "dominant": "lexical"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "a topic that is nowhere in this corpus at all",
+      "chunkId": "python",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "It is widely used for data science, scripting, and web development.",
+          "delta": 0.1467042586894879,
+          "share": 0.6290270075130516
+        },
+        {
+          "sentence": "Python is a high-level programming language.",
+          "delta": 0.08651984287890768,
+          "share": 0.3709729924869483
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 0.31460711442155576,
+        "alpha": 0.5,
+        "denseContribution": 0.5,
+        "lexicalContribution": 0.15730355721077788,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "baseline",
+      "query": "a topic that is nowhere in this corpus at all",
+      "chunkId": "eiffel",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "It was completed in 1889 for the World's Fair.",
+          "delta": 0.157596078655671,
+          "share": 0.7941177556553912
+        },
+        {
+          "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "delta": 0.04085821547556373,
+          "share": 0.2058822443446088
+        }
+      ],
+      "components": {
+        "dense": 0.3644295529322165,
+        "lexical": 0.5746500570695858,
+        "alpha": 0.5,
+        "denseContribution": 0.18221477646610826,
+        "lexicalContribution": 0.2873250285347929,
+        "dominant": "lexical"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Python data science",
+      "chunkId": "python",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "It is widely used for data science, scripting, and web development.",
+          "delta": 0.41138828515344117,
+          "share": 0.8429908062969292
+        },
+        {
+          "sentence": "Python is a high-level programming language.",
+          "delta": 0.07662212027503346,
+          "share": 0.15700919370307073
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.8,
+        "denseContribution": 0.8,
+        "lexicalContribution": 0.19999999999999996,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Python data science",
+      "chunkId": "photosynthesis",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Plants use chlorophyll to absorb sunlight and release oxygen.",
+          "delta": 0.20961632384795947,
+          "share": 1.0
+        },
+        {
+          "sentence": "Photosynthesis converts light energy into chemical energy.",
+          "delta": -0.07303027877141682,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.47595916013668454,
+        "lexical": 0.0,
+        "alpha": 0.8,
+        "denseContribution": 0.38076732810934766,
+        "lexicalContribution": 0.0,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Python data science",
+      "chunkId": "numpy",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "NumPy is a Python library for numerical computing.",
+          "delta": 0.22064259568248948,
+          "share": 1.0
+        },
+        {
+          "sentence": "It provides fast multi-dimensional array operations.",
+          "delta": -0.34298053830590813,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.2139387553267352,
+        "lexical": 0.2474579571055065,
+        "alpha": 0.8,
+        "denseContribution": 0.17115100426138818,
+        "lexicalContribution": 0.04949159142110129,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Python programming language",
+      "chunkId": "python",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Python is a high-level programming language.",
+          "delta": 1.0,
+          "share": 1.0
+        },
+        {
+          "sentence": "It is widely used for data science, scripting, and web development.",
+          "delta": 0.0,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.8,
+        "denseContribution": 0.8,
+        "lexicalContribution": 0.19999999999999996,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Python programming language",
+      "chunkId": "numpy",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "NumPy is a Python library for numerical computing.",
+          "delta": 0.3574117328600033,
+          "share": 1.0
+        },
+        {
+          "sentence": "It provides fast multi-dimensional array operations.",
+          "delta": -0.12526489056408402,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.3849001767986275,
+        "lexical": 0.2474579571055065,
+        "alpha": 0.8,
+        "denseContribution": 0.307920141438902,
+        "lexicalContribution": 0.04949159142110129,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Python programming language",
+      "chunkId": "banana",
+      "granularity": "sentence",
+      "degenerate": true,
+      "sentences": [
+        {
+          "sentence": "Bananas are an elongated edible fruit.",
+          "delta": 0.0,
+          "share": 0.5
+        },
+        {
+          "sentence": "They are rich in potassium and grow in tropical climates.",
+          "delta": 0.0,
+          "share": 0.5
+        }
+      ],
+      "components": {
+        "dense": 0.0,
+        "lexical": 0.0,
+        "alpha": 0.8,
+        "denseContribution": 0.0,
+        "lexicalContribution": 0.0,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "France river Paris",
+      "chunkId": "seine",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Seine is a major river of northern France.",
+          "delta": 0.3409873271679288,
+          "share": 0.7262354277647737
+        },
+        {
+          "sentence": "It flows through Paris before reaching the English Channel.",
+          "delta": 0.12853992822558524,
+          "share": 0.2737645722352263
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.8,
+        "denseContribution": 0.8,
+        "lexicalContribution": 0.19999999999999996,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "France river Paris",
+      "chunkId": "paris",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The capital of France is Paris.",
+          "delta": 0.5255536682465884,
+          "share": 1.0
+        },
+        {
+          "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "delta": -0.03115977523487945,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.9784921414215169,
+        "lexical": 0.9302325581395349,
+        "alpha": 0.8,
+        "denseContribution": 0.7827937131372136,
+        "lexicalContribution": 0.18604651162790695,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "France river Paris",
+      "chunkId": "eiffel",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "delta": 0.7900356866654885,
+          "share": 1.0
+        },
+        {
+          "sentence": "It was completed in 1889 for the World's Fair.",
+          "delta": -0.2099643133345115,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.8770580225554458,
+        "lexical": 0.4419463431056594,
+        "alpha": 0.8,
+        "denseContribution": 0.7016464180443567,
+        "lexicalContribution": 0.08838926862113186,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "northern France Paris",
+      "chunkId": "seine",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "It flows through Paris before reaching the English Channel.",
+          "delta": 0.7883431163901427,
+          "share": 1.0
+        },
+        {
+          "sentence": "The Seine is a major river of northern France.",
+          "delta": 0.0,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.8,
+        "denseContribution": 0.8,
+        "lexicalContribution": 0.19999999999999996,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "northern France Paris",
+      "chunkId": "eiffel",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "delta": 0.7670389947460635,
+          "share": 1.0
+        },
+        {
+          "sentence": "It was completed in 1889 for the World's Fair.",
+          "delta": -0.23296100525393648,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.8770580270635782,
+        "lexical": 0.3269628654760047,
+        "alpha": 0.8,
+        "denseContribution": 0.7016464216508626,
+        "lexicalContribution": 0.06539257309520093,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "northern France Paris",
+      "chunkId": "paris",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The capital of France is Paris.",
+          "delta": 0.5887758018688685,
+          "share": 1.0
+        },
+        {
+          "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "delta": -0.41122419813113154,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.652328089074782,
+        "lexical": 0.33456665304521416,
+        "alpha": 0.8,
+        "denseContribution": 0.5218624712598257,
+        "lexicalContribution": 0.06691333060904282,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "light energy chemical plants",
+      "chunkId": "photosynthesis",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Photosynthesis converts light energy into chemical energy.",
+          "delta": 0.7203380924037948,
+          "share": 1.0
+        },
+        {
+          "sentence": "Plants use chlorophyll to absorb sunlight and release oxygen.",
+          "delta": -8.529922257416445e-08,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.8,
+        "denseContribution": 0.8,
+        "lexicalContribution": 0.19999999999999996,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "light energy chemical plants",
+      "chunkId": "banana",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "They are rich in potassium and grow in tropical climates.",
+          "delta": 0.16865481739622204,
+          "share": 1.0
+        },
+        {
+          "sentence": "Bananas are an elongated edible fruit.",
+          "delta": -0.08432738737330533,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.21081852174527754,
+        "lexical": 0.0,
+        "alpha": 0.8,
+        "denseContribution": 0.16865481739622204,
+        "lexicalContribution": 0.0,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "light energy chemical plants",
+      "chunkId": "mitochondria",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "They produce ATP, the energy currency that drives cellular metabolism.",
+          "delta": 0.16004881370686264,
+          "share": 1.0
+        },
+        {
+          "sentence": "The mitochondria are the powerhouse of the cell.",
+          "delta": -0.10298705753572318,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.1632993110275155,
+        "lexical": 0.14704682442425127,
+        "alpha": 0.8,
+        "denseContribution": 0.1306394488220124,
+        "lexicalContribution": 0.029409364884850245,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Paris France",
+      "chunkId": "eiffel",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "delta": 0.9818181818181818,
+          "share": 1.0
+        },
+        {
+          "sentence": "It was completed in 1889 for the World's Fair.",
+          "delta": -0.018181818181818188,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 0.9090909090909091,
+        "alpha": 0.8,
+        "denseContribution": 0.8,
+        "lexicalContribution": 0.18181818181818177,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Paris France",
+      "chunkId": "paris",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The capital of France is Paris.",
+          "delta": 0.7810612784665892,
+          "share": 1.0
+        },
+        {
+          "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "delta": -0.21893872153341076,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.7437684585483528,
+        "lexical": 0.9302325581395349,
+        "alpha": 0.8,
+        "denseContribution": 0.5950147668386823,
+        "lexicalContribution": 0.18604651162790695,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "Paris France",
+      "chunkId": "seine",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "It flows through Paris before reaching the English Channel.",
+          "delta": 0.5270379092679164,
+          "share": 1.0
+        },
+        {
+          "sentence": "The Seine is a major river of northern France.",
+          "delta": -0.15283136243707995,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.5700877091655406,
+        "lexical": 1.0,
+        "alpha": 0.8,
+        "denseContribution": 0.45607016733243255,
+        "lexicalContribution": 0.19999999999999996,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "capital of France geography",
+      "chunkId": "paris",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The capital of France is Paris.",
+          "delta": 0.5409500729735333,
+          "share": 1.0
+        },
+        {
+          "sentence": "It sits on the banks of the Seine river in the north of the country.",
+          "delta": 0.0,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 1.0,
+        "alpha": 0.8,
+        "denseContribution": 0.8,
+        "lexicalContribution": 0.19999999999999996,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "capital of France geography",
+      "chunkId": "seine",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "The Seine is a major river of northern France.",
+          "delta": 0.3137377518016395,
+          "share": 1.0
+        },
+        {
+          "sentence": "It flows through Paris before reaching the English Channel.",
+          "delta": -0.1891918770746554,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.3065941993334119,
+        "lexical": 0.3423119616745497,
+        "alpha": 0.8,
+        "denseContribution": 0.24527535946672954,
+        "lexicalContribution": 0.06846239233490993,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "capital of France geography",
+      "chunkId": "banana",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Bananas are an elongated edible fruit.",
+          "delta": 0.25854295040831016,
+          "share": 1.0
+        },
+        {
+          "sentence": "They are rich in potassium and grow in tropical climates.",
+          "delta": -0.1292714425138456,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.3231786880103877,
+        "lexical": 0.0,
+        "alpha": 0.8,
+        "denseContribution": 0.25854295040831016,
+        "lexicalContribution": 0.0,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "a topic that is nowhere in this corpus at all",
+      "chunkId": "eiffel",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "It was completed in 1889 for the World's Fair.",
+          "delta": 0.20824968880953965,
+          "share": 0.5104277595291847
+        },
+        {
+          "sentence": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+          "delta": 0.19974083467144776,
+          "share": 0.48957224047081527
+        }
+      ],
+      "components": {
+        "dense": 1.0,
+        "lexical": 0.5746500570695858,
+        "alpha": 0.8,
+        "denseContribution": 0.8,
+        "lexicalContribution": 0.11493001141391714,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "a topic that is nowhere in this corpus at all",
+      "chunkId": "python",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "Python is a high-level programming language.",
+          "delta": 0.38615632954088325,
+          "share": 1.0
+        },
+        {
+          "sentence": "It is widely used for data science, scripting, and web development.",
+          "delta": -0.08462442779077484,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.8551315319990918,
+        "lexical": 0.31460711442155576,
+        "alpha": 0.8,
+        "denseContribution": 0.6841052255992734,
+        "lexicalContribution": 0.06292142288431114,
+        "dominant": "dense"
+      }
+    },
+    {
+      "runId": "candidate",
+      "query": "a topic that is nowhere in this corpus at all",
+      "chunkId": "numpy",
+      "granularity": "sentence",
+      "degenerate": false,
+      "sentences": [
+        {
+          "sentence": "NumPy is a Python library for numerical computing.",
+          "delta": 0.5742406624358286,
+          "share": 1.0
+        },
+        {
+          "sentence": "It provides fast multi-dimensional array operations.",
+          "delta": -0.20559625706124285,
+          "share": 0.0
+        }
+      ],
+      "components": {
+        "dense": 0.6582805631542211,
+        "lexical": 0.23808105956225836,
+        "alpha": 0.8,
+        "denseContribution": 0.5266244505233769,
+        "lexicalContribution": 0.04761621191245166,
+        "dominant": "dense"
+      }
+    }
+  ]
+}
