@@ -115,7 +115,17 @@ for config in CONFIGS:
                     "granularity": explanation.granularity,
                     "degenerate": explanation.degenerate,
                     "sentences": [
-                        {"sentence": s.sentence, "delta": s.delta, "share": s.share}
+                        {
+                            "sentence": s.sentence,
+                            # The attributor sorts by descending share; the span
+                            # is what lets the UI put the text back into reading
+                            # order. Without it the heat map renders a chunk's
+                            # sentences shuffled, which misrepresents the text.
+                            "start": s.span[0],
+                            "end": s.span[1],
+                            "delta": s.delta,
+                            "share": s.share,
+                        }
                         for s in explanation.sentences
                     ],
                     "components": (

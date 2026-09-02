@@ -47,6 +47,9 @@ export interface ScoredChunk {
  */
 export interface SentenceAttribution {
   sentence: string;
+  /** Character offsets in the chunk text, so reading order can be restored. */
+  start: number;
+  end: number;
   /** Score change when this sentence is removed. Negative means it helped. */
   delta: number;
   /** Share of the total attributed movement, in [0, 1]. */

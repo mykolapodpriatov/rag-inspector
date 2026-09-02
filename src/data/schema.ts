@@ -57,6 +57,11 @@ export const runSchema = z.object({
 
 export const sentenceAttributionSchema = z.object({
   sentence: z.string(),
+  // Character offsets in the chunk text. The attributor returns sentences
+  // sorted by descending share; the span is what lets the UI restore reading
+  // order, without which the heat map shows a chunk's sentences shuffled.
+  start: z.number().int().nonnegative(),
+  end: z.number().int().nonnegative(),
   delta: z.number(),
   share: z.number(),
 });
