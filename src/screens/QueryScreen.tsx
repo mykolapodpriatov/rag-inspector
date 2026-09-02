@@ -88,9 +88,10 @@ export function QueryScreen() {
   return (
     <div className="query-screen">
       <div className="controls">
-        <label className="field">
-          <span>Run</span>
+        <div className="field">
+          <label htmlFor="run-select">Run</label>
           <select
+            id="run-select"
             value={run.id}
             onChange={(event) =>
               select({ run: event.target.value, chunk: undefined })
@@ -102,11 +103,12 @@ export function QueryScreen() {
               </option>
             ))}
           </select>
-        </label>
+        </div>
 
-        <label className="field field-grow">
-          <span>Query</span>
+        <div className="field field-grow">
+          <label htmlFor="query-select">Query</label>
           <select
+            id="query-select"
             value={activeQuery.query}
             onChange={(event) =>
               select({ query: event.target.value, chunk: undefined })
@@ -118,7 +120,7 @@ export function QueryScreen() {
               </option>
             ))}
           </select>
-        </label>
+        </div>
       </div>
 
       {metrics ? <MetricsPanel summary={metrics} className="metrics" /> : null}

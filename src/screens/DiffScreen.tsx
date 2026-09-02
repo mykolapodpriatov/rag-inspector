@@ -114,9 +114,10 @@ export function DiffScreen() {
   return (
     <div className="diff-screen">
       <div className="controls">
-        <label className="field">
-          <span>Baseline</span>
+        <div className="field">
+          <label htmlFor="baseline-select">Baseline</label>
           <select
+            id="baseline-select"
             value={base.id}
             onChange={(event) => update({ base: event.target.value })}
           >
@@ -126,11 +127,12 @@ export function DiffScreen() {
               </option>
             ))}
           </select>
-        </label>
+        </div>
 
-        <label className="field">
-          <span>Candidate</span>
+        <div className="field">
+          <label htmlFor="candidate-select">Candidate</label>
           <select
+            id="candidate-select"
             value={candidate.id}
             onChange={(event) => update({ candidate: event.target.value })}
           >
@@ -140,11 +142,12 @@ export function DiffScreen() {
               </option>
             ))}
           </select>
-        </label>
+        </div>
 
-        <label className="field field-grow">
-          <span>Query</span>
+        <div className="field field-grow">
+          <label htmlFor="diff-query-select">Query</label>
           <select
+            id="diff-query-select"
             value={activeQueryText}
             onChange={(event) => update({ query: event.target.value })}
           >
@@ -154,7 +157,7 @@ export function DiffScreen() {
               </option>
             ))}
           </select>
-        </label>
+        </div>
       </div>
 
       <div className="diff-metrics">
