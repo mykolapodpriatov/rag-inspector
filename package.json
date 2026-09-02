@@ -2,13 +2,13 @@
   "name": "rag-inspector",
   "version": "0.0.0",
   "private": true,
-  "description": "Retrieval explainer UI for RAG — why a chunk ranked where it did, and what changed between two retrievers.",
+  "description": "Retrieval explainer UI for RAG \u2014 why a chunk ranked where it did, and what changed between two retrievers.",
   "license": "MIT",
   "author": "Mykola Podpriatov",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
@@ -17,6 +17,36 @@
     "test": "vitest run",
     "e2e": "playwright test"
   },
-  "engines": { "node": ">=22.0.0" },
-  "packageManager": "pnpm@10.33.2"
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "dependencies": {
+    "@tanstack/react-query": "^5.102.8",
+    "@tanstack/react-router": "^1.170.32",
+    "@tanstack/react-virtual": "^3.14.10",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.62.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "@vitejs/plugin-react": "^6.1.1",
+    "axe-core": "^4.13.0",
+    "eslint": "^10.9.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "jsdom": "^30.0.1",
+    "prettier": "^3.9.6",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.69.0",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  }
 }
