@@ -141,6 +141,10 @@ kbd,
   color: var(--muted);
 }
 
+.field label {
+  cursor: pointer;
+}
+
 .field-grow {
   flex: 1;
   min-width: 260px;

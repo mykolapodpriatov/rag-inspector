@@ -67,10 +67,11 @@ export function ResultList({
                 maxScore={maxScore}
                 className="result-score"
               />
-              <span className="sr-only">
-                rank {result.rank + 1}
-                {isRelevant ? ', known relevant' : ''}
-              </span>
+              {/* The rank is aria-hidden above because "#3" reads as a
+                  string of characters; this says it in words. Relevance is
+                  not repeated here — the badge is real text and already part
+                  of the accessible name. */}
+              <span className="sr-only">rank {result.rank + 1}</span>
             </button>
           </li>
         );
