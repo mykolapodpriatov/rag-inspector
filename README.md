@@ -204,6 +204,9 @@ GET /runs/:id/explanation?query=&chunkId=  -> Explanation | 404
 ```
 
 No screen changes — that is the point of the interface.
+[`docs/http-adapter.md`](docs/http-adapter.md) has a complete, runnable
+reference server implementing those three endpoints over
+`why-this-chunk`'s retriever.
 
 ## Architecture decisions
 
@@ -217,7 +220,6 @@ Tracked as [open issues](https://github.com/mykolapodpriatov/rag-inspector/issue
 
 - content-based chunk matching, so a re-chunked index does not read as
   "everything removed, everything added"
-- a reference FastAPI adapter for `httpSource`
 - virtualisation, once a DOM large enough to need it exists
 - the counterfactual "smallest config change that would have surfaced the right
   chunk" from `why-this-chunk`
