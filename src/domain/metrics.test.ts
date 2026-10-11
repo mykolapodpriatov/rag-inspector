@@ -131,6 +131,12 @@ describe('ndcgAtK', () => {
   it('returns null without ground truth', () => {
     expect(ndcgAtK(RANKED, [], 3)).toBeNull();
   });
+
+  it('counts a repeated relevant id only the first time', () => {
+    // gain(0) = 1, and the ideal ranking has one item, so a second copy of
+    // the same id must not push nDCG above 1.
+    expect(ndcgAtK(['a', 'a'], ['a'], 2)).toBeCloseTo(1, 10);
+  });
 });
 
 describe('averagePrecisionAtK', () => {
@@ -152,6 +158,10 @@ describe('averagePrecisionAtK', () => {
       1,
       10,
     );
+  });
+
+  it('counts a repeated relevant id only the first time', () => {
+    expect(averagePrecisionAtK(['a', 'a'], ['a'], 2)).toBeCloseTo(1, 10);
   });
 });
 
