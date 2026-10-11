@@ -105,10 +105,14 @@ export function ndcgAtK(
   const window = topK(ranked, k);
   const gain = (position: number): number => 1 / Math.log2(position + 2);
 
-  const dcg = window.reduce(
-    (total, id, position) => total + (truth.has(id) ? gain(position) : 0),
-    0,
-  );
+  // The ideal ranking counts each relevant id once. A repeated id must not
+  // add gain again, or nDCG climbs above 1.
+  const seen = new Set<string>();
+  const dcg = window.reduce((total, id, position) => {
+    if (!truth.has(id) || seen.has(id)) return total;
+    seen.add(id);
+    return total + gain(position);
+  }, 0);
 
   // The ideal ranking is capped at K: with 4 relevant chunks and K = 2 the best
   // achievable result is 2 hits, and dividing by a 4-hit ideal would mean a
@@ -133,9 +137,11 @@ export function averagePrecisionAtK(
   const window = topK(ranked, k);
   let hits = 0;
   let total = 0;
+  const seen = new Set<string>();
 
   for (const [position, id] of window.entries()) {
-    if (!truth.has(id)) continue;
+    if (!truth.has(id) || seen.has(id)) continue;
+    seen.add(id);
     hits += 1;
     total += hits / (position + 1);
   }
