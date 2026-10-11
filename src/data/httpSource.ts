@@ -105,7 +105,15 @@ export function createHttpSource(options: HttpSourceOptions): RetrievalSource {
 
     async listRuns(): Promise<RunSummary[]> {
       const runs = await get('/runs', z.array(runSummarySchema));
-      return runs ?? [];
+      // An empty catalogue is a 200 with []. A 404 is the same signal as a
+      // missing run: the endpoint is not there. Treating it as zero runs
+      // hides a down backend behind an empty screen.
+      if (!runs) {
+        throw new Error(
+          `The backend returned 404 Not Found for ${baseUrl}/runs.`,
+        );
+      }
+      return runs;
     },
 
     async getRun(id: string): Promise<RetrievalRun> {

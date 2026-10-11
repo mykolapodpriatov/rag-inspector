@@ -181,6 +181,16 @@ describe('http source', () => {
     ).resolves.toBeNull();
   });
 
+  it('does not treat a 404 on the run list as an empty catalogue', async () => {
+    const fetchMock = vi.fn().mockResolvedValue(json(null, 404));
+    const source = createHttpSource({
+      baseUrl: 'https://api.example.com',
+      fetch: fetchMock,
+    });
+
+    await expect(source.listRuns()).rejects.toThrow(/404/);
+  });
+
   it('throws a typed error for an unknown run', async () => {
     const fetchMock = vi.fn().mockResolvedValue(json(null, 404));
     const source = createHttpSource({
